@@ -1,0 +1,5 @@
+#+TITLE: Org mode templates and snippets 
+#+OPTIONS: toc:nil H:1 num:nil html-postamble:nil html-preamble:nil 
+
+* Documentation 
+	Collection of various templates and snippets.
