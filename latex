@@ -1,5 +1,7 @@
 # -*- mode: snippet -*-
 # name: title
-# key: <ti
+# key: <l
 # --
-#+TITLE: ${1:What the hell}
+#+BEGIN_LATEX
+$0
+#+END_LATEX
