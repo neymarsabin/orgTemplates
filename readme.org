@@ -1,5 +1,48 @@
-#+TITLE: Org mode templates and snippets 
+#+TITLE: orgTemplates  
 #+OPTIONS: toc:nil H:1 num:nil html-postamble:nil html-preamble:nil 
+#+AUTHOR: neymarsabin
+#+EMAIL: reddevil.sabin@gmail.com
+#+DESCRIPTION: A basic collection of org-mode snippets in EMACS 
+#+DATE: 2017:01:24
 
-* Documentation 
-	Collection of various templates and snippets.
+* Introduction 
+	orgTemplates is a collection of basic templates used for org-mode of EMACS.
+	
+* Use
+	Using orgTemplates is very simple.Just clone this repository.Then copy all files inside orgTemplates to your emacs configuration folder excluding hidden files.
+#+BEGIN_SRC bash 
+cd orgTemplates
+rsync -av --exclude=".*" . ~/.emacs.d/snippets/org-mode/
+#+END_SRC
+Then,tell emacs to reload all the snippets.For that do *M-x yas-reload-all* 
+
+* Depends On
+	Yasnippet = [[https://github.com/joaotavora/yasnippet][Github Link]]
+	Installing yasnippet is easy and instructions is available in it's github page.
+
+* Keywords and Templates 
+	#+CAPTION: Keywords and names 
+	#+ATTR_HTML: :width 100%
+	| Keywords | names         |
+	|----------+---------------|
+	| <au      | Author        |
+	| <c       | center        |
+	| <da      | date          |
+	| desc     | Description   |
+	| <em      | Email         |
+	| <e       | Example block |
+	and so on....
+	\\
+	Most of the keywords start with first two or three letters after *<*
+
+* Contributions 
+	Highly appreciated!!!
+
+
+
+
+	
+	
+
+	
+
