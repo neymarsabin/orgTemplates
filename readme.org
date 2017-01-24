@@ -23,17 +23,22 @@ Then,tell emacs to reload all the snippets.For that do *M-x yas-reload-all*
 * Keywords and Templates 
 	#+CAPTION: Keywords and names 
 	#+ATTR_HTML: :width 100%
-	| Keywords | names         |
-	|----------+---------------|
-	| <au      | Author        |
-	| <c       | center        |
-	| <da      | date          |
-	| desc     | Description   |
-	| <em      | Email         |
-	| <e       | Example block |
+	| Keywords | names         |   | Keywords | names       |
+	|----------+---------------+---+----------+-------------|
+	| <au      | Author        |   | <ex      | Export      |
+	| <c       | center        |   | <ht      | html        |
+	| <da      | date          |   | <im      | Images      |
+	| desc     | Description   |   | <i       | Includes    |
+	| <em      | Email         |   | <ke      | Keywords    |
+	| <e       | Example block |   | <lan     | Language    |
+	| <l       | Latex         |   | <li      | Links       |
+	| <op      | Options       |   | <q       | Quote       |
+	| set      | Setup         |   | <s       | Source Code |
+	| <st      | Style         |   | <ta      | Table       |
+	| <ti      | Title         |   | <v       | Verse       |
+	| <vi      | Videos        |   |          |             |
 	and so on....
-	\\
-	Most of the keywords start with first two or three letters after *<*
+
 
 * Contributions 
 	Highly appreciated!!!
