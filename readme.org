@@ -37,7 +37,15 @@ Then,tell emacs to reload all the snippets.For that do *M-x yas-reload-all*
 	| <st      | Style         |   | <ta      | Table       |
 	| <ti      | Title         |   | <v       | Verse       |
 	| <vi      | Videos        |   |          |             |
-	and so on....
+
+	For Revealjs templates
+	#+CAPTION: Keywords and names 
+	#+ATTR_HTML: :width 100%
+	| Keywords | names                            |
+	|----------+----------------------------------|
+	| <rvl     | Reveal all options               |
+	| <rsb     | Reveal single colored background |
+	| <rib     | Reveal image background          |
 
 
 * Contributions 
